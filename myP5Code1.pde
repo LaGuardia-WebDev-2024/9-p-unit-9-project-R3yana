@@ -25,10 +25,11 @@ draw = function(){
       sceneImage = caveSceneImage;
       sceneText = "Where do you want to go?  [Press f for forest and c for cave]";
     } 
-   }
   
 };
+if (mousepressed){
 
+}
 var drawScene = function(){
     image(sceneImage, 0, 0);
     
