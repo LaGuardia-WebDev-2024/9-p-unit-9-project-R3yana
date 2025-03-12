@@ -5,11 +5,13 @@
 var answer = 1;
 
 draw = function (){
-drawPig(100, -200);
+
 
   background(100,100,100);
+ 
   fill(0, 0, 0);
   ellipse(200, 200, 375, 375);
+   drawPig(100, -200);
   fill(60, 0, 255);
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
@@ -42,7 +44,8 @@ drawPig(100, -200);
     text("AGAIN",177,230);
     }
     if (mousePressed){
-    text("💧",random(0,300),random(0,400));
+  
+    text("💧",MouseX(0,300),mouseY(0,400));
     }
     
 };
