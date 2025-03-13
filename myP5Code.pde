@@ -44,8 +44,8 @@ draw = function (){
     text("AGAIN",177,230);
     }
     if (mousePressed){
-  
-    text("💧",MouseX(0,300),mouseY(0,400));
+   text("💧",mouseX,mouseY);
+    text("💧",random(0,300),random(0,400));
     }
     
 };
